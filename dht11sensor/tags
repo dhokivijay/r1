@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUF_LEN	dht11km.c	64;"	d	file:
+DHT11_DRIVER_NAME	dht11km.c	61;"	d	file:
+Device_Open	dht11km.c	/^static int Device_Open = 0;				\/\/ Is device open?  Used to prevent multiple access to device $/;"	v	file:
+GPIO_CLEAR_PIN	dht11km.c	75;"	d	file:
+GPIO_DIR_INPUT	dht11km.c	67;"	d	file:
+GPIO_DIR_OUTPUT	dht11km.c	69;"	d	file:
+GPIO_INT_CLEAR	dht11km.c	77;"	d	file:
+GPIO_INT_FALLING	dht11km.c	81;"	d	file:
+GPIO_INT_RISING	dht11km.c	79;"	d	file:
+GPIO_READ_PIN	dht11km.c	71;"	d	file:
+GPIO_SET_PIN	dht11km.c	73;"	d	file:
+RBUF_LEN	dht11km.c	62;"	d	file:
+SUCCESS	dht11km.c	63;"	d	file:
+bitcount	dht11km.c	/^static unsigned int bitcount=0;$/;"	v	file:
+bytecount	dht11km.c	/^static unsigned int bytecount=0;$/;"	v	file:
+clear_interrupts	dht11km.c	/^static void clear_interrupts(void)$/;"	f	file:
+close_dht11	dht11km.c	/^static int close_dht11(struct inode *inode, struct file *file)$/;"	f	file:
+device_read	dht11km.c	/^static ssize_t device_read(struct file *filp,	\/\/ see include\/linux\/fs.h   $/;"	f	file:
+dht	dht11km.c	/^static unsigned char dht[5];			\/\/ For result bytes$/;"	v	file:
+dht11_exit_module	dht11km.c	/^module_exit(dht11_exit_module);$/;"	v
+dht11_exit_module	dht11km.c	/^static void __exit dht11_exit_module(void)$/;"	f	file:
+dht11_init_module	dht11km.c	/^module_init(dht11_init_module);$/;"	v
+dht11_init_module	dht11km.c	/^static int __init dht11_init_module(void)$/;"	f	file:
+driverno	dht11km.c	/^static int driverno = 80;		\/\/Default driver number$/;"	v	file:
+fops	dht11km.c	/^static struct file_operations fops = {$/;"	v	typeref:struct:file_operations	file:
+format	dht11km.c	/^static int format = 0;		\/\/Default result format$/;"	v	file:
+gpio	dht11km.c	/^volatile unsigned *gpio;$/;"	v
+gpio_pin	dht11km.c	/^static int gpio_pin = 0;		\/\/Default GPIO pin$/;"	v	file:
+init_port	dht11km.c	/^static int init_port(void)$/;"	f	file:
+irq_handler	dht11km.c	/^static irqreturn_t irq_handler(int i, void *blah, struct pt_regs *regs)$/;"	f	file:
+lasttv	dht11km.c	/^static struct timeval lasttv = {0, 0};$/;"	v	typeref:struct:timeval	file:
+lock	dht11km.c	/^static spinlock_t lock;$/;"	v	file:
+msg	dht11km.c	/^static char msg[BUF_LEN];				\/\/ The msg the device will give when asked $/;"	v	file:
+msg_Ptr	dht11km.c	/^static char *msg_Ptr;$/;"	v	file:
+read_dht11	dht11km.c	/^static int read_dht11(struct inode *inode, struct file *file)$/;"	f	file:
+sense	dht11km.c	/^static int sense = 0;$/;"	v	file:
+setup_interrupts	dht11km.c	/^static int setup_interrupts(void)$/;"	f	file:
+started	dht11km.c	/^static unsigned int started=0;			\/\/Indicate if we have started a read or not$/;"	v	file:
+valid_gpio_pins	dht11km.c	/^int valid_gpio_pins[] = { 0, 1, 4, 8, 7, 9, 10, 11, 14, 15, 17, 18, 21, 22, 23,	24, 25 };$/;"	v
